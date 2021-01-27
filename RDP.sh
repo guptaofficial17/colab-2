@@ -21,7 +21,7 @@ sudo adduser CHROME chrome-remote-desktop
 printf "\nSetup Complete " >&2 ||
 printf "\nNext Step " >&2
 printf '\nGo to : https://remotedesktop.google.com/headless " >&2
-printf '\nSteps - BEGIN > NEXT > AUTHORISE {Select Account to save RDP} > Copy Command of 'Debian Linux' And"\n'
+printf '\nSteps - BEGIN > NEXT > AUTHORISE {Select Account to save RDP} > Copy Command of Debian Linux And"\n'
 read -p "Paste Command Here {and Hit ENTER}: " CRP
 su - CHROME -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n\n'
