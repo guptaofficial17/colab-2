@@ -31,4 +31,4 @@ then
 else
     printf "\n\nError Occured " >&2
 fi
-    printf "\n\nCode Version 1.20 - Updated - 27th January, 2021" >&2
+    printf "\n\nCode Version -1.20 - Updated - 27th January" >&2
