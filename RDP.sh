@@ -20,7 +20,7 @@ sudo adduser CHROME chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Complete " >&2 ||
 printf "\nNext Step " >&2
-printf '\nGo to : https://remotedesktop.google.com/headless "Steps - BEGIN > NEXT > AUTHORISE {Select Account to save RDP} > Copy Command of "'Debian Linux'" And Paste Down"\n'
+printf '\nGo to : https://remotedesktop.google.com/headless "Steps - BEGIN > NEXT > AUTHORISE {Select Account to save RDP} > Copy Command of "Debian Linux" And Paste Down"\n'
 read -p "Paste Command Here {and Hit ENTER}: " CRP
 su - CHROME -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n\n'
@@ -30,4 +30,4 @@ then
 else
     printf "\n\nError Occured " >&2
 fi
-    printf "\n\nCode Version 1.10 - Latest " >&2
+    printf "\n\nCode Version 1.20 - Updated - 27th January, 2021" >&2
